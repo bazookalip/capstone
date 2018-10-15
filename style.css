@@ -61,6 +61,11 @@ header {
   font-size: 1.5rem;
   margin-left: 0.5rem;
   font-weight: 300;
+  color: grey;
+}
+
+#company-name span {
+  color: black;
 }
 
 #logo {
@@ -99,11 +104,12 @@ nav li {
 
 nav a:hover {
   opacity: .8;
-  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 a {
-  color: #blue;
+  color: grey;
   text-decoration: none;
 }
 

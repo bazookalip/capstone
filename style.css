@@ -139,3 +139,60 @@ a {
     width: 60%
   }
 }
+
+main {
+  position: relative;
+  top: 64px;
+}
+.jumbotron {
+  padding: 2rem 2rem;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  width: 80%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.jumbotron h1{
+  color: grey;
+}
+
+.jumbotron p{
+font-size: 1.5rem;
+}
+
+.hgroup {
+  margin: 0 40px;
+  display: flex;
+  align-items: baseline;
+  flex-flow: column;
+}
+
+.button {
+  width: 30%;
+  max-height: 40px;
+  align-self: flex-start;
+  border-radius: 5px;
+  background-color: transparent;
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 2rem 2rem 2rem 0rem;
+  text-align: center;
+  text-transform: uppercase;:
+}
+
+.button:hover {
+  background-color: grey;
+  color: white;
+  transition: .25s ease 150ms;
+}

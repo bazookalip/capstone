@@ -105,7 +105,7 @@ nav li {
 nav a:hover {
   opacity: .8;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: grey;
 }
 
 a {
@@ -146,13 +146,13 @@ main {
 }
 .jumbotron {
   padding: 2rem 2rem;
-  background-color: lightgrey;
+  background-color: #8b8c95;
   display: flex;
-  align-items: center;
+  align-items:flex-start;
 }
 
 .banner {
-  width: 80%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -161,7 +161,7 @@ img {
 }
 
 .jumbotron h1{
-  color: grey;
+  color: white;
 }
 
 .jumbotron p{
@@ -171,7 +171,7 @@ font-size: 1.5rem;
 .hgroup {
   margin: 0 40px;
   display: flex;
-  align-items: baseline;
+  align-items:stretch;
   flex-flow: column;
 }
 
@@ -181,9 +181,9 @@ font-size: 1.5rem;
   align-self: flex-start;
   border-radius: 5px;
   background-color: transparent;
-  border: solid 1px black;
+  border: solid 1px white;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1rem;
   padding: 1rem;
   margin: 2rem 2rem 2rem 0rem;
@@ -192,7 +192,7 @@ font-size: 1.5rem;
 }
 
 .button:hover {
-  background-color: grey;
+  background-color: #6f6f71;
   color: white;
   transition: .25s ease 150ms;
 }

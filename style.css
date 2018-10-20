@@ -348,6 +348,8 @@ aside .story:hover {
   }
 }
 
+/*--Programs--*/
+
 #courses {
   display: flex;
   flex-flow: row wrap;
@@ -400,29 +402,56 @@ aside .story:hover {
   padding: .5rem 0 1.5rem 0;
 }
 
+/*--Programs Breakpoints--*/
+
+@media only screen and (max-width: 800px) {
+  .program {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #courses h2 {
+    margin: 0 auto 2rem;
+  }
+  #courses {
+    padding-bottom: 1rem;
+  }
+  .program {
+    width: 80%;
+    margin: 0.5rem 0;
+  }
+  .program img, .program h4, .program p {
+    display: none;
+  }
+  #courses h3 {
+    margin: 0;
+  }
+}
+
 /*--Thesis--*/
 
-.thesis {
+#thesis {
   background-color: #f4f4f4;
   padding: 0 0 2rem 0;
 }
 
-.thesis >div {
+#thesis>div {
   display: flex;
   padding: 1rem 1.5rem;
 }
 
-.thesis .focus {
+#thesis .focus {
   padding: 0;
 }
 
-.thesis aside {
+#thesis aside {
   display: flex;
   flex-flow: column;
   margin-left: 1rem;
 }
 
-.thesis h3 {
+#thesis h3 {
   margin: 1.5rem 0;
 }
 
@@ -430,9 +459,47 @@ aside .story:hover {
   width: 100%;
 }
 
+
+/*--Thesis Breakpoints--*/
+
+@media only screen and (max-width:1080px) {
+  #thesis>div {
+    flex-flow: column;
+  }
+  #thesis .story {
+    flex-flow: row;
+    padding: 0;
+    max-height: 10.5rem;
+  }
+  #thesis aside {
+    display: flex;
+    flex-flow: row;
+    max-width: none;
+    margin: 2rem 0 0 0;
+  }
+  #thesis .image {
+    padding: 1rem;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #thesis aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #thesis aside, #thesis h3, #thesis p {
+    display: none;
+  }
+}
+
+
 /*--Footer--*/
 
 footer {
+  background-color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;

@@ -400,6 +400,36 @@ aside .story:hover {
   padding: .5rem 0 1.5rem 0;
 }
 
+/*--Thesis--*/
+
+.thesis {
+  background-color: #f4f4f4;
+  padding: 0 0 2rem 0;
+}
+
+.thesis >div {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.thesis .focus {
+  padding: 0;
+}
+
+.thesis aside {
+  display: flex;
+  flex-flow: column;
+  margin-left: 1rem;
+}
+
+.thesis h3 {
+  margin: 1.5rem 0;
+}
+
+.focus video {
+  width: 100%;
+}
+
 /*--Footer--*/
 
 footer {

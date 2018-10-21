@@ -467,7 +467,6 @@ aside .story:hover {
 @media only screen and (max-width:1080px) {
   .thesis>div {
     flex-flow: column;
-
   }
   .thesis .story {
     flex-flow: row;
@@ -483,18 +482,6 @@ aside .story:hover {
   .thesis .image {
     padding: 1rem;
     max-width: 25%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .thesis aside {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 660px) {
-  .thesis aside, .thesis h3, .thesis p {
-    display: none;
   }
 }
 

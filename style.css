@@ -467,6 +467,7 @@ aside .story:hover {
 @media only screen and (max-width:1080px) {
   .thesis>div {
     flex-flow: column;
+
   }
   .thesis .story {
     flex-flow: row;

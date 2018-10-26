@@ -485,7 +485,17 @@ aside .story:hover {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .thesis aside {
+    display: none;
+  }
+}
 
+@media only screen and (max-width: 660px) {
+  .thesis aside, .thesis h3, .thesis p {
+    display: none;
+  }
+}
 /*--Footer--*/
 
 footer {
